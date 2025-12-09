@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Estudos Inteligente</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-brain"></i> Spaced Repetition</h1>
+            <p>Estude, cronometre e deixe o sistema agendar suas revisões.</p>
+        </header>
+
+        <!-- Area de estudo novo-->
+        <section class="study-card">
+            <h2>Novo Estudo</h2>
+            <div class="input-group">
+                <input type="text" id="subjectInput" placeholder="Ex: Direito Constitucional - Art. 5º">
+            </div>
+            
+            <div class="timer-display" id="timerDisplay">00:00:00</div>
+            
+            <div class="controls">
+                <button id="btnStart" class="btn btn-primary"><i class="fas fa-play"></i> Iniciar</button>
+                <button id="btnPause" class="btn btn-secondary" disabled><i class="fas fa-pause"></i> Pausar</button>
+                <button id="btnFinish" class="btn btn-success" disabled><i class="fas fa-check"></i> Finalizar</button>
+            </div>
+        </section>
+
+        <!-- Área das Listas de Revisão -->
+        <div class="dashboard-grid">
+            
+            <!-- Revisões para HOJE -->
+            <section class="list-section">
+                <h3><i class="fas fa-calendar-day"></i> Revisar Hoje / Atrasadas</h3>
+                <ul id="dueReviewsList" class="review-list">
+                </ul>
+                <div id="emptyDue" class="empty-state">Nada para revisar agora! 🎉</div>
+            </section>
+
+            <!-- Próximas Revisões -->
+            <section class="list-section">
+                <h3><i class="fas fa-calendar-alt"></i> Próximas Revisões</h3>
+                <ul id="futureReviewsList" class="review-list">
+                </ul>
+            </section>
+        </div>
+        
+        <button id="btnClearAll" class="btn-text">Limpar todos os dados</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
