@@ -30,3 +30,5 @@ Por ser um projeto puramente Front-End, basta:
 2.  Abrir o arquivo **`index.html`** no seu navegador de preferência.
 
 **Autor:** Gabr1elDev
+
+<img width="1009" height="1049" alt="Captura de tela 2025-12-10 073127" src="https://github.com/user-attachments/assets/e7466d30-47bb-4073-8e24-3cc0c4221138" />
