@@ -6,7 +6,7 @@ Agenda de estudos inteligente  |  Smart study planner
 
 Este projeto é um planejador de estudos simples que utiliza o conceito de **Repetição Espaçada** (Spaced Repetition) para otimizar a memorização de conteúdos. O objetivo é ajudar o usuário a revisar o material no intervalo ideal para consolidar o aprendizado.
 
-Este é um projeto **Full Front-End** desenvolvido durante a minha jornada de aprendizado em Análise e Desenvolvimento de Sistemas (ADS).
+Este é um projeto **Full Front-End**
 
 ## 🚀 Tecnologias Utilizadas
 
